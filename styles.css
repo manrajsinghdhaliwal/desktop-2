@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:  #202020; */
+}
+
+.background_img {
+    background-image: url(images/unsplash_QBpZGqEMsKg.png);
+    z-index: 0;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    height: 640px;
+}
+
+#nav-bar {
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 7.5% 19.15px 6.67%;
+    background: rgba(50, 50, 50, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    align-items: center;
+}
+
+.logo_text {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 27px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #DEDEDE;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    align-items: center;
+}
+
+.menu_text {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #DEDEDE;
+}
+
+#cowork {
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    padding: 128px 20.7% 290px 6.67%;
+    gap: 112px;
+}
+
+.cowork_text1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #DEDEDE;
+    opacity: 0.7;
+}
+
+.cowork_text2 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: #DEDEDE;
+}
+
+.cowork_text3 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: -0.5px;
+
+    color: #DEDEDE;
+
+}
+
+.text4 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #DEDEDE;
+}
+
+.cowork_heading {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-right: 48.75%;
+}
+
+.cowork_elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#problem {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #202020;
+    padding: 0 6.67% 100px;
+
+}
+
+.launch {
+    padding-top: 66px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #DEDEDE;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.line1 {
+    background: #A5A5A5;
+    height: 2px;
+    width: 14.75%;
+}
+
+.image2 {
+    background-image: url(images/unsplash_yWwob8kwOCk.png);
+    object-fit: fill;
+    height: 769px;
+
+}
+
+#solution {
+    display: flex;
+    flex-direction: column;
+    padding: 234px 6.67% 216px 6.67%;
+    background-color: #202020;
+    gap: 275px;
+}
+
+.sol1 {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+}
+
+.rectangle2 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 12px;
+}
+
+.solhead {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #DEDEDE;
+    opacity: 0.7;
+}
+
+.soltext {
+    font-family: 'Manrope', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#conclusion {
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    padding: 0 6.67% 0 6.67%;
+    gap: 128px;
+}
+
+.context {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.context1 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #DEDEDE;
+    opacity: 0.7;
+}
+
+.context2 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 54px;
+    letter-spacing: -0.5px;
+    color: #DEDEDE;
+}
+
+#footer {
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    padding: 224px 6.67% 153px 6.67%;
+    gap: 153px;
+}
+
+.case {
+    font-family: 'Manrope', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #DEDEDE;
+}
+
+.nextcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line2 {
+    background: #A5A5A5;
+    height: 2px;
+    width: 12.75%;
+}
+
+.rule {
+    width: 100%;
+    background: #696969;
+    height: 1px;
+}
+
+.last_foot {
+    background-color: #202020;
+    padding: 49px 6.67%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.foot1 {
+    font-family: 'Manrope',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    color: #959595;
+}
+.bold{
+    color: #ECECEC;
+}
+.foot2{
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+}
